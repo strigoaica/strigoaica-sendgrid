@@ -1,0 +1,35 @@
+{
+  "name": "strigoaica-sendgrid",
+  "version": "0.0.1",
+  "description": "Strigoaica - SendGrid Strategy",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "agathias": "^0.0.4",
+    "strigoaica-strategy": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^10.5.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefanos Chrs <root@stefanoschrs.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strigoaica/strigoaica-sendgrid.git"
+  },
+  "keywords": [
+    "strigoaica",
+    "sendgrid",
+    "strategy"
+  ],
+  "bugs": {
+    "url": "https://github.com/strigoaica/strigoaica-sendgrid/issues"
+  },
+  "homepage": "https://github.com/strigoaica/strigoaica-sendgrid#readme"
+}
