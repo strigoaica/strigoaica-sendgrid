@@ -69,7 +69,7 @@ class Sendgrid implements Strategy {
     let rawTemplate
     try {
       rawTemplate = fs.readFileSync(
-        `${this.templatesPath}/${templateId}.txt`,
+        `${this.templatesPath}/${templateId}.html`,
         {
           encoding: 'utf-8'
         }

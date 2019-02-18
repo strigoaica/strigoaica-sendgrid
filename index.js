@@ -87,7 +87,7 @@ var Sendgrid = /** @class */ (function () {
     Sendgrid.prototype.loadLocalTemplateOptions = function (templateId) {
         var rawTemplate;
         try {
-            rawTemplate = fs.readFileSync(this.templatesPath + "/" + templateId + ".txt", {
+            rawTemplate = fs.readFileSync(this.templatesPath + "/" + templateId + ".html", {
                 encoding: 'utf-8'
             });
         }
